@@ -1,11 +1,11 @@
-import express from "express";
+import express from "express"
 
-import { HealthController } from "./health-controller";
+import { HealthController } from "./health-controller"
 
-const healthRouter = express.Router();
+const healthRouter = express.Router()
 
-const healthController = new HealthController();
+const healthController = new HealthController()
 
-healthRouter.get("/", healthController.run.bind(healthController));
+healthRouter.get("/", healthController.run.bind(healthController))
 
-export { healthRouter };
+export { healthRouter }

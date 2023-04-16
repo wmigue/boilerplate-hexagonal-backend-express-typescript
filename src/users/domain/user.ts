@@ -1,3 +1,4 @@
-export class User {
-  constructor(public readonly id: string, public readonly name: string) {}
+export interface User {
+  id: string;
+  name: string;
 }

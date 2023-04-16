@@ -4,8 +4,8 @@
   "description": "Example of how to implement the repository pattern using Typescript",
   "main": "src/index.js",
   "scripts": {
-    "start": "node dist/src/main.js",
-    "start:dev": "tsnd --respawn src/main.ts",
+    "start": "node dist/src/index.js",
+    "start:dev": "tsnd --respawn src/index.ts",
     "test": "npm run test:unit",
     "test:unit": "NODE_ENV=test jest --coverage",
     "prepare": "husky install",
@@ -46,7 +46,7 @@
     "rimraf": "^4.0.4",
     "ts-jest": "^29.0.5",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.5"
   },
   "lint-staged": {
     "*.(js|ts)": [

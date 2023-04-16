@@ -1,9 +1,10 @@
-import express from "express";
+import express from "express"
 
-import { userGetController } from "../dependencies";
+import { userGetController } from "../dependencies"
 
-const userRouter = express.Router();
+const userRouter = express.Router()
 
-userRouter.get("/:id", userGetController.run.bind(userGetController));
+userRouter.get("/:id", userGetController.findById.bind(userGetController))
+userRouter.get("/", userGetController.findByName.bind(userGetController))
 
-export { userRouter };
+export { userRouter }

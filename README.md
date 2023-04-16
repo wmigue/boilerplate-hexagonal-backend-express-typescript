@@ -1,12 +1,4 @@
-<h1 align="center">Repository Pattern Typescript Example</h1>
 
-<p align="center">
-  Example of how to implement the repository pattern using Typescript
-</p>
-
-<p align="center">
-    <a href="https://github.com/AlbertHernandez/repository-pattern-typescript-example/actions/workflows/nodejs.yml?branch=main"><img src="https://github.com/AlbertHernandez/repository-pattern-typescript-example/actions/workflows/nodejs.yml/badge.svg?branch=main" alt="nodejs"/></a>
-</p>
 
 ## Table of Contents
 
@@ -47,8 +39,10 @@ Run the linter
 npm run lint
 ```
 
-Fix lint issues automatically
+
+fixear segun las reglas definidas en eslint todos los archivos
 
 ```bash
 npm run lint:fix
 ```
+
